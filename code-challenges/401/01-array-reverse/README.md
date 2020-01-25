@@ -13,3 +13,9 @@
 ### Big O:
 - Time: O(N)
 - Space: O(1)
+
+#### Time taken
+* 0.324 seconds so time is less than 1 second
+
+#### Memory Usage
+* 54 MB of memory used to execute
