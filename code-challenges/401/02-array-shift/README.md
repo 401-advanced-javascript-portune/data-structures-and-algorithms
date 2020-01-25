@@ -19,3 +19,9 @@
 ### Big O:
 - Time: O(N)
 - Space: O(1)
+
+#### Time Taken to Execute
+* 0.8 Sec
+
+#### Memory Taken to Execute
+* 59 MB
