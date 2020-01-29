@@ -1,4 +1,4 @@
-let arrayReverse = require('./array-reverse.js');
+let arrayReverse = require('../array-reverse.js');
 
 // -------------------------------------------------------------------
 //
