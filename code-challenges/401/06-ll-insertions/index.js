@@ -11,5 +11,6 @@ list.insert('Node 3');
 list.insert('Node 2');
 list.insert('Node 1');
 list.insert('Node 0');
+list.append('Node 6')
 
 console.log(list.toString());

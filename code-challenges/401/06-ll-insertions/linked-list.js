@@ -27,6 +27,17 @@ class LinkedList {
         }
         return false;
     }
+    append(ele) {
+        
+    }
+
+    insertBefore(value, newVal) {
+
+    }
+
+    insertAfter(value, newVal) {
+        
+    }
     toString() {
         let listStr = [];
         let str = '';
