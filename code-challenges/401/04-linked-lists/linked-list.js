@@ -13,8 +13,23 @@ class LinkedList {
         } else {
             node.next = this.head;
             this.head = node;
-            console.log(node);
         }
+        return this;
+    }
+    includes(ele) {
+        let head = this.head;
+        while(head.next){
+            if(head.data === ele){
+                console.log('Return True');
+                return true;
+            } else {
+                head = head.next;
+                console.log('Failed, Next!!');
+            }
+        }
+    }
+    toString() {
+        
     }
 }
 
