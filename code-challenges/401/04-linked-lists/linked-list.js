@@ -20,16 +20,29 @@ class LinkedList {
         let head = this.head;
         while(head.next){
             if(head.data === ele){
-                console.log('Return True');
                 return true;
             } else {
                 head = head.next;
-                console.log('Failed, Next!!');
             }
         }
+        return false;
     }
     toString() {
-        
+        let listStr = [];
+        let str = '';
+        let current = this.head;
+        while(current.next){
+            current = current.next;
+            listStr.push(current.data);
+        }
+        listStr.forEach(ele => {
+            if(this.includes(ele)){
+                str += `{${ele}} --> `;
+            } else {
+                str += `{${ele}}`;
+            }
+        })
+        return str;
     }
 }
 

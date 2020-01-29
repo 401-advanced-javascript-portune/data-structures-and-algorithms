@@ -12,6 +12,4 @@ list.insert('Node 2');
 list.insert('Node 1');
 list.insert('Node 0');
 
-// console.log(list.insert('Node 3'));
-// console.log(list.includes('Node 0'));
-// console.log(list.includes('Node 14'));
+console.log(list.toString());

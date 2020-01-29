@@ -11,7 +11,17 @@
 
 ## Approach & Efficiency
 ### Algorithm
-* 
+* Create the node class passing in the data with node as null to initialize later
+* Create LinkedList class should be empty with exception of head as null
+* Create insert in LinkedList class to create new node and assign head, if none exist then make it the current and return the element
+    1. If a head exists then assign head to current head and next to the list node (current).
+* Create includes in LinkedList class to check if an existing node if present, If present then return true. if not then return false
+* Create toString in LinkedList that outputs all the existing LinkedLists
+    1. initialize empty array, string variable and current variable
+    2. If current has a next property then push data into array
+    3. Run through array and add to string with parameters {data} -->
+    4. check for end and add {data} without arrow.
+    5. return string
 
 ### Big O:
 - Time: O(N)
